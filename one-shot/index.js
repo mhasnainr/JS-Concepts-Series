@@ -219,4 +219,64 @@
 
 //
 
+// -------------- Day 3
+
 // ---------------------------------------------- Chapter 6: for Loop
+
+// let fruits = ["apple", "grapes", "banana", "mango", "watermelon", "peach"];
+
+// console.log(fruits);
+
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(i, fruits[i]);
+// }
+
+// below: cleaner way of writing for loop
+
+// for (const fruit of fruits) {
+//   console.log(fruit);
+// }
+
+// below: sum up all numbers
+
+// const num = [1, 2, 3, 4, 5];
+
+// for (let i = 0; i < num.length; i++) {
+//   console.log(i, num[i]);
+// }
+
+// for (const nm of num) {
+//   console.log(nm);
+//     console.log(num);
+//     console.log(nm * 2); // double the number
+// }
+
+// below: modify to log the double of each number
+
+// let result = [];
+
+// for (const nm of num) {
+//   result.push(nm * 2);
+// }
+
+// console.log(result);
+
+// below: turn into a function
+
+// const double = (num) => {
+//   let result = [];
+
+//   for (const nm of num) {
+// result.push(nm * 2);// double the number
+// result.push(nm ** 2); // squaring the number
+//   }
+//   return result;
+// };
+
+// console.log(double([1, 2, 3, 4, 5]));
+
+//
+
+// ---------------------------------------------- Chapter 7: Ex: Array & Object
+
+//
